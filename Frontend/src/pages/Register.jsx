@@ -38,7 +38,7 @@ export default function Register() {
                 setError(data.message);
                 return;
             }
-            navigate('/sign-in');
+            navigate('/');
         } catch(error) {
             setLoading(false);
             setError(error.message);
