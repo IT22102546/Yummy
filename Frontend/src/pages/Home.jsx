@@ -3,7 +3,7 @@ import {Card} from 'flowbite-react'
 export default function Home() {
   return (
     <>
-    <div className="mt-16 bg-cover bg-center bg-no-repeat brightness-75" style={{ backgroundImage: "url('/img/hero-1.jpg')", padding: '110px 0px'}}>
+    <div className="mt-24 bg-cover bg-center bg-no-repeat brightness-75" style={{ backgroundImage: "url('/img/hero-1.jpg')", padding: '110px 0px'}}>
       {/* Add a semi-transparent overlay */}
      
 
@@ -28,7 +28,7 @@ export default function Home() {
 
     {/* Abut section */}
 
-    <div className='mt-24'>
+    <div className='mt-36'>
       <h1 className='text-center text-3xl font-semibold'>About</h1>
       <div className='flex flex-wrap justify-center gap-14 mt-24'>
         <Card

@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 export default function Header() {
   return (
 
-<nav className="bg-gray-200 shadow shadow-gray-300 w-100 px-8 md:px-auto fixed top-0 w-full">
+<nav className="bg-black text-white shadow shadow-gray-300 w-100 px-8 md:px-auto fixed top-0 w-full p-4">
 	<div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
 
 		<div className="text-indigo-500 md:order-1">
@@ -18,10 +18,10 @@ export default function Header() {
             {/* Left section: Home and Shop links */}
             <div className="flex space-x-4 list-none">
                 <Link to="/">
-                    <li className="md:px-4 md:py-2 hover:text-indigo-400 ">Home</li>
+                    <li className="md:px-4 md:py-2 hover:text-gray-300 ">Home</li>
                 </Link>
                 <Link to="/shop">
-                    <li className="md:px-4 md:py-2 hover:text-indigo-400">Shop</li>
+                    <li className="md:px-4 md:py-2 hover:text-gray-300">Shop</li>
                 </Link>
             </div>
 
@@ -36,13 +36,13 @@ export default function Header() {
             {/* Right section: Search, User, and Cart icons */}
             <div className="flex space-x-4 list-none gap-5">
                 <Link to="/search">
-                    <li ><box-icon name='search' color=''></box-icon></li>
+                    <li ><box-icon name='search' color='white'></box-icon></li>
                 </Link>
                 <Link to="/user">
-                    <li ><box-icon name='user' color=''></box-icon></li>
+                    <li ><box-icon name='user' color='white'></box-icon></li>
                 </Link>
                 <Link to="/cart">
-                    <li ><box-icon name='cart-alt' color=''></box-icon></li>
+                    <li ><box-icon name='cart-alt' color='white'></box-icon></li>
                 </Link>
             </div>
 		</div>
